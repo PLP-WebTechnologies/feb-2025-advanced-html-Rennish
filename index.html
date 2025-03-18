@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Week2 Assingment</title>
+</head>
+<body>
+  <!-- tje header section of the webpage-->
+  <header>
+    <h1>Week 2 PLP Assignment</h1>
+    <h2 >
+      This week's assignment contains lists, images, tables and a registration form. 
+    </h2>
+  </header>
+
+  <!-- this section cotains lists-->
+  <section id="lists">
+    <h3>LISTS</h3>
+    <ol type="I">
+      <li>Libya</li>
+      <li>Nigeria</li>
+      <li>Congo</li>
+      <li>Botswana</li>
+      <li>Ghana</li>
+      <li>Lesotho</li>
+    </ol>
+  </section>
+
+  <!-- this sections adds media to our webpage-->
+  <section id="images">
+    <img src="https://images.pexels.com/photos/31181927/pexels-photo-31181927/free-photo-of-charming-rainy-tokyo-laneway-with-greenery.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+    alt="Charming Rainy Tokyo Laneway with Greenery, found in Tokyo, Japan"
+    width="400"
+    height="400">
+
+    <video src="https://videos.pexels.com/video-files/30775907/13164210_1440_2560_30fps.mp4"
+    type="video/mp4">
+    This open a video trial phase</video>
+  </section>
+
+  <section id="tables">
+    <table border="2">
+      <thead>
+        <tr>
+          <td>Name</td>
+          <td>address</td>
+          <td>Mobile number</td>
+          <td>Email</td>
+        </tr>
+      </thead>
+      
+      <tr>
+        <td>Rennish Mboya</td>
+        <td>6217 Kisumu</td>
+        <td>0723 701 283</td>
+        <td>rennishmboya89@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Eunqie Akinyi</td>
+        <td>1725 Kisumu</td>
+        <td>0715 256 321</td>
+        <td>euniqquest@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Kelvin Ndanya</td>
+        <td>1589 Kisumu</td>
+        <td>0726 023 640</td>
+        <td>kelvin6ndanya@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Gloria Anyango</td>
+        <td>8217 Kisumu</td>
+        <td>0735 876 325</td>
+        <td>anyangogloria@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Yvonne Mwajuma</td>
+        <td>Private Bag Kisumu</td>
+        <td>0715 876 912</td>
+        <td>mwajuma@gmail.com</td>
+      </tr>
+    </table>
+  </section>
+
+  <section id="registration_form">
+    <h2>Registration form</h2>
+
+    <label for="name">Name: </label>
+    <input type="text" 
+           name="name" 
+           value="Enter your name" />
+    <br><br>
+    <label for="email">Email Address </label>
+    <input type="email" 
+           name="email" 
+           id="email" 
+           value="yourname@example.com" 
+           pattern="yourname@example.com"
+           required />
+    <br><br>
+    <label for="password">Password</label>
+    <input type="password" 
+           name="password" 
+           id="password" 
+           value="password"
+           required/>
+    <br><br>
+    <label for="date_of_joining">Date of Joining</label>
+    <input type="date" 
+            name="date_of_joining" 
+            id="date_of_joining"
+            min="2016-01-01"
+            required />
+    <br><br>
+    <label for="school" >Which school do you belong to? </label>
+    <select name="school" id="name_of_school">
+      <option value="default-value">select your school</option>
+      <option value="1">school of computing</option>
+      <option value="2">school of physical and biological sciences</option>
+      <option value="3">school of medicine</option>
+      <option value="4">school of engineering</option>
+    </select>
+    <br><br>
+    <label for="gender">Gender: </label>
+    <input type="radio" name="gender" id="gender"/>Male
+    <input type="radio" name="gender" id="gender"> Female
+    <br><br>
+
+    <label for="sports"> What are your favourite sports? </label> <br>
+    <input type="checkbox" name="sports" id="sports"> Swimming <br>
+    <input type="checkbox" name="sports" id="sports"> Jayaking <br>
+    <input type="checkbox" name="sports" id="sports"> Walking <br>
+    <input type="checkbox" name="sports" id="sports"> Basket ball <br>
+    <br><br>
+
+
+    <button type="submit">Submit</button>
+    <button type="reset">Cancel</button>
+  </section>
+  
+  <footer>
+    <p>designed by Rennish © 2025</p>
+  </footer>
+</body>
+</html>
